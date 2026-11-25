@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Layar 6 · Pembayaran UKT InfoKHS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="va" data-file="nomor-va.html">
+<main class="app">
+  <header class="bar">
+    <p class="step">InfoKHS · Selesai</p>
+    <h1>Nomor Virtual Account</h1>
+  </header>
+  <section class="view">
+    <div class="box va">
+      <p class="muted">Nomor VA (contoh prototype) · <span id="va-bank"></span></p>
+      <p class="va-number" id="va-number"></p>
+    </div>
+    <section class="box" aria-label="Yang akan dibayar">
+      <h2>Yang akan dibayar</h2>
+      <ul class="rows" id="va-list"></ul>
+    </section>
+  </section>
+  <footer class="foot">
+    <div class="total"><span>Total</span><strong id="total">Rp 0</strong></div>
+    <div class="actions">
+      <button type="button" class="btn primary" id="btn-next">Selesai, kembali ke awal</button>
+    </div>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

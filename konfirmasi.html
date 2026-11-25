@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Layar 4 · Pembayaran UKT InfoKHS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="confirm" data-file="konfirmasi.html">
+<main class="app">
+  <header class="bar">
+    <p class="step">InfoKHS · Langkah 4 dari 5</p>
+    <h1>Konfirmasi Pembayaran</h1>
+  </header>
+  <section class="view">
+    <p>Periksa kembali pilihan Anda sebelum memilih bank.</p>
+    <section class="box" aria-label="Rincian pembayaran UKT">
+      <h2>Rincian pembayaran UKT</h2>
+      <ul class="rows" id="confirm-list"></ul>
+    </section>
+    <p class="note" id="confirm-note"></p>
+  </section>
+  <footer class="foot">
+    <div class="total"><span>Total</span><strong id="total">Rp 0</strong></div>
+    <div class="actions">
+      <button type="button" class="btn ghost" id="btn-back">Ubah pilihan</button>
+      <button type="button" class="btn primary" id="btn-next">Pilih Bank</button>
+    </div>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
