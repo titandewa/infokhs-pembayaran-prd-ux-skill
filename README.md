@@ -3,7 +3,7 @@
 **Penulis:** Achmad Titan Dewa Ruci (NIM 202310370311394)
 **Mata kuliah:** Rekayasa Interaksi
 **Status:** Draf 1
-**Demo:** https://github.com/titandewa/infokhs-pembayaran-prd-ux-skill.git
+**Demo:** https://titandewa.github.io/infokhs-pembayaran-prd-ux-skill/
 
 ## 1. Ringkasan
 Prototype ini merancang ulang langkah memilih item pembayaran UKT (HER dan UTS) di menu pembayaran InfoKHS, sampai pengguna memperoleh nomor VA.
