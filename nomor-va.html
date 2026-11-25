@@ -3,14 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Layar 6 · Pembayaran UKT InfoKHS</title>
+<title>Nomor VA · Pembayaran UKT InfoKHS</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="va" data-file="nomor-va.html">
 <main class="app">
   <header class="bar">
-    <p class="step">InfoKHS · Selesai</p>
+    <p class="step">Selesai</p>
     <h1>Nomor Virtual Account</h1>
+    <ol class="progress" aria-label="Tahapan pembayaran">
+      <li class="done">Pilih item</li>
+      <li class="done">Konfirmasi</li>
+      <li class="done">Bank</li>
+      <li class="current" aria-current="step">Nomor VA</li>
+    </ol>
   </header>
   <section class="view">
     <div class="box va">
@@ -24,9 +30,7 @@
   </section>
   <footer class="foot">
     <div class="total"><span>Total</span><strong id="total">Rp 0</strong></div>
-    <div class="actions">
-      <button type="button" class="btn primary" id="btn-next">Selesai, kembali ke awal</button>
-    </div>
+    <div class="actions"><button type="button" class="btn primary" id="btn-next">Selesai, kembali ke awal</button></div>
   </footer>
 </main>
 <script src="app.js"></script>

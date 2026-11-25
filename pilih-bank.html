@@ -3,14 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Layar 5 · Pembayaran UKT InfoKHS</title>
+<title>Pilih Bank · Pembayaran UKT InfoKHS</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="bank" data-file="pilih-bank.html">
 <main class="app">
   <header class="bar">
-    <p class="step">InfoKHS · Langkah 5 dari 5</p>
+    <p class="step">Langkah 3 dari 4</p>
     <h1>Pilih Bank</h1>
+    <ol class="progress" aria-label="Tahapan pembayaran">
+      <li class="done">Pilih item</li>
+      <li class="done">Konfirmasi</li>
+      <li class="current" aria-current="step">Bank</li>
+      <li class="">Nomor VA</li>
+    </ol>
   </header>
   <section class="view">
     <p>Pilih bank untuk memperoleh nomor VA.</p>
@@ -18,9 +24,7 @@
   </section>
   <footer class="foot">
     <div class="total"><span>Total</span><strong id="total">Rp 0</strong></div>
-    <div class="actions">
-      <button type="button" class="btn ghost" id="btn-back">Kembali ke Konfirmasi</button>
-    </div>
+    <div class="actions"><button type="button" class="btn ghost" id="btn-back">Kembali ke Konfirmasi</button></div>
   </footer>
 </main>
 <script src="app.js"></script>
